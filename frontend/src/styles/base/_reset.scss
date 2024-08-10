@@ -1,0 +1,18 @@
+/* A basic CSS reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Set base font family and background color */
+body {
+  font-family: $font-family-base;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: $line-height-base;
+}

@@ -1,0 +1,14 @@
+// The file contains styles for the default theme (e.g. light mode)
+
+body.default-theme {
+  background-color: $background-color;
+  color: $text-color;
+
+  a {
+    color: $primary-color;
+  }
+
+  .header {
+    background-color: $primary-color;
+  }
+}

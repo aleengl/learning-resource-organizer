@@ -1,0 +1,7 @@
+@function rem($px) {
+  @return $px / 16px * 1rem;
+}
+
+@function color-opacity($color, $alpha) {
+  @return rgba($color, $alpha);
+}

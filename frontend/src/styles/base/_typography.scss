@@ -1,0 +1,35 @@
+// The file contains global typógraphy rules, including styles for headings, paragraphs, links, etc.
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-base;
+  line-height: 1.2;
+  margin-bottom: $spacing-unit;
+}
+
+h1 {
+  font-size: rem(32px);
+}
+
+h2 {
+  font-size: rem(28px);
+}
+
+p {
+  margin-bottom: $spacing-unit * 2;
+  font-size: rem(16px);
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  @include transition(color);
+
+  &:hover {
+    color: darken($primary-color, 10%);
+  }
+}
