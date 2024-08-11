@@ -1,37 +1,32 @@
+@use "../abstracts";
+
 // The file contains styles specific to the home page
 
 .home-page {
   .hero {
-    background-color: $secondary-color;
-    padding: $spacing-unit * 4;
+    background-color: abstracts.$secondary-color;
+    padding: abstracts.$spacing-unit * 4;
     text-align: center;
 
     h1 {
       color: white;
-      font-size: rem(36px);
     }
 
     p {
       color: white;
-      font-size: rem(18px);
     }
   }
 
   .features {
     display: flex;
     justify-content: space-around;
-    padding: $spacing-unit * 4;
+    padding: abstracts.$spacing-unit * 4;
 
     .feature {
       text-align: center;
 
       h3 {
-        font-size: rem(24px);
-        margin-bottom: $spacing-unit;
-      }
-
-      p {
-        font-size: rem(16px);
+        margin-bottom: abstracts.$spacing-unit;
       }
     }
   }

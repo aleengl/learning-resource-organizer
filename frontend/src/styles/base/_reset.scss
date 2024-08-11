@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 /* A basic CSS reset */
 html,
 body {
@@ -11,8 +13,8 @@ body {
 
 /* Set base font family and background color */
 body {
-  font-family: $font-family-base;
-  background-color: $background-color;
-  color: $text-color;
-  line-height: $line-height-base;
+  font-family: abstracts.$font-family-base;
+  background-color: abstracts.$background-color;
+  color: abstracts.$text-color;
+  line-height: abstracts.$line-height-base;
 }

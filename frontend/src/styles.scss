@@ -1,29 +1,29 @@
 // abstracts
-@import "styles/abstracts/variables";
-@import "styles/abstracts/mixins";
-@import "styles/abstracts/functions";
+@use "styles/abstracts/variables";
+@use "styles/abstracts/mixins";
+@use "styles/abstracts/functions";
 
 // base
-@import "styles/base/base";
-@import "styles/base/reset";
-@import "styles/base/typography";
+@use "styles/base/base";
+@use "styles/base/reset";
+@use "styles/base/typography";
 
 // layout
-@import "styles/layout/footer";
-@import "styles/layout/grid";
-@import "styles/layout/header";
+@use "styles/layout/footer";
+@use "styles/layout/grid";
+@use "styles/layout/header";
 
 // components
-@import "styles/components/buttons";
-@import "styles/components/card";
-@import "styles/components/modal";
+@use "styles/components/buttons";
+@use "styles/components/card";
+@use "styles/components/modal";
 
 // pages
-@import "styles/pages/about";
-@import "styles/pages/home";
+@use "styles/pages/about";
+@use "styles/pages/home";
 
 // themes
-@import "styles/themes/dark-theme";
-@import "styles/themes/default-theme";
+@use "styles/themes/dark-theme";
+@use "styles/themes/default-theme";
 
 // vendors

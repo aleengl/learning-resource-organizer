@@ -1,12 +1,13 @@
+@use "../abstracts";
+
 // The file contains styles related to the header section of your layout
 
 .header {
-  background-color: $primary-color;
-  padding: $spacing-unit * 2;
+  background-color: abstracts.$primary-color;
+  padding: abstracts.$spacing-unit * 2;
   color: white;
 
   .header__logo {
-    font-size: rem(24px);
     font-weight: bold;
   }
 
@@ -14,14 +15,13 @@
     ul {
       list-style: none;
       display: flex;
-      gap: $spacing-unit * 2;
+      gap: abstracts.$spacing-unit * 2;
     }
 
     li {
       a {
         color: white;
         text-decoration: none;
-        @include transition(color);
 
         &:hover {
           color: lighten(white, 20%);
